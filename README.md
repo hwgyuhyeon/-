@@ -1,1 +1,1 @@
-# -
+Programmer's agony zone
