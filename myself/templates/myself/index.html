@@ -1,0 +1,342 @@
+{% extends 'myself/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyuhyeon Hwang</title>
+
+    {% load static %}
+    {% block extrahead %}
+    {% endblock %}
+</head>
+
+<body>
+    {% block content %}
+    <main>
+        <h1 class="name">Gyuhyeon Hwang</h1>
+        <p class="message">Backend Developer</p>
+        <p class="info">
+            <a>
+                <i class="fas fa-envelope"></i>
+                <span>hwgyuhyeon@gmail.com</span>
+            </a>
+            <br>
+            <a href="https://github.com/hgyuhyeon">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/gyuhyeon/">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </p>
+    </main>
+
+    <section id="about">
+        <div class="title">About</div>
+        <div class="paragraph">
+            <div class="kr">
+                웹 개발을 공부중인 충북대학교 재학생입니다.<br>
+                웹 백엔드 / AI에 관심을 갖고 있습니다.<br>
+                주로 교내 프로젝트를 진행하거나, 동아리 활동을 하고 있습니다.<br>
+            </div>
+            <div class="en">
+                I'm a student at Chungbuk National University who is studying web development.<br>
+                Currently interested in Web backend / AI.<br>
+                Mainly do school project or club activity.<br>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="title">Activity Overview</div>
+        <div class="paragraph timeline">
+            <ul class="days">
+                <li class="day">
+                    <div class="events">
+                        <div class="kr">
+                            <h4 class="stitle">충북대학교 인공지능 동아리 COSMIC</h4>
+                            <p>2021.01 - 현재</p>
+                            <h4 class="stitle">멋쟁이 사자처럼 9기</h4>
+                            <p>2021.03 - 현재</p>
+                        </div>
+                        <div class="en">
+                            <h4 class="stitle">CBNU AI club: COSMIC</h4>
+                            <p>2021.01 - Present</p>
+                            <h4 class="stitle">LikeLion 9th</h4>
+                            <p>2021.03 - Present</p>
+                        </div>
+                        <div class="date">2021</div>
+                    </div>
+                </li>
+
+                <li class="day">
+                    <div class="events">
+                        <div class="kr">
+                            <h4 class="stitle">충청권 거점 인공지능 교육 기본과정</h4>
+                            <p>2020.08 - 2020.10</p>
+                        </div>
+                        <div class="en">
+                            <h4 class="stitle">Chungbuk AI Education program basic course</h4>
+                            <p>2020.08 - 2020.10</p>
+                        </div>
+                        <div class="date">2020</div>
+                    </div>
+                </li>
+
+                <li class="day">
+                    <div class="events">
+                        <div class="kr">
+                            <h4 class="stitle">충북대학교 영상처리 동아리 NOVA</h4>
+                            <p>2019.03 - 현재 | 총무(2020) | 부회장(2021)</p>
+                        </div>
+                        <div class="en">
+                            <h4 class="stitle">CBNU Image processing club: NOVA</h4>
+                            <p>2019.03 - Present | secretary(2020) | vice president(2021)</p>
+                        </div>
+                        <div class="date">2019</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="title">Project</div>
+        <div class="paragraph">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="stitle">
+                        Analysis of Solar Power Prediction sith Data-Driven Approaches
+                    </div>
+                    <div class="date">
+                        2021.05 - 2021.10
+                        &nbsp;|&nbsp;
+                        <span class="kr">국제공동 산학프로젝트 | 4인 </span>
+                        <span class="en">Global Joint Project | 4 members</span>
+                    </div>
+                    - <b style="color:red"><span class="kr">진행중</span><span class="en">Now processing</span></b><br>
+                </div>
+
+                <div class="col-lg-6">
+                    <hr id="hrdisplay">
+                    <div class="stitle">
+                        Luminous
+                    </div>
+                    <div class="date">
+                        2021.05 - 2021.06
+                        &nbsp;|&nbsp;
+                        <span class="kr">충북대학교 오픈소스 웹소프트웨어 | 3인</span>
+                        <span class="en">CBNU Open Source Web SW | 3 members</span>
+                    </div>
+                    <div class="kr">
+                        - 네일 & 패디를 판매하는 웹사이트.<br>
+                        - 서버 & 데이터베이스 구축을 포함한 백엔드 전체 구현.<br>
+                    </div>
+                    <div class="en">
+                        - A web store that sells nail and pedi items.<br>
+                        - Implemented all of backend include server and database.<br>
+                    </div>
+                    <div class="techstack">HTML, CSS, Javascript, Bootstrap, Python, Django, Git</div>
+                </div>
+
+                <div class="col-lg-6">
+                    <hr>
+                    <div class="stitle">
+                        To do list:
+                        <span class="kr"> 함께하는 일정관리</span>
+                        <span class="en"> share with other people</span>
+                    </div>
+                    <div class="date">
+                        2021.03 - 2021.06
+                        &nbsp;|&nbsp;
+                        <span class="kr">충북대학교 오픈소스전문프로젝트 | 5인</span>
+                        <span class="en">CBNU Application of Open Source SW Project | 5 members</span>
+                    </div>
+                    <div class="kr">
+                        - 계획을 입력&관리하고, 다른 사용자들과 계획 달성도를 비교하여 경쟁할 수 있는 안드로이드 애플리케이션.<br>
+                        - 프로젝트의 아이디어를 제시하고, 프로젝트를 기획 총괄 및 설계함.<br>
+                        - To-do List와 포인트 관리를 구현했으며, 서버와 DB의 보조 관리를 맡음.<br>
+                    </div>
+                    <div class="en">
+                        - An android application that can enter and manage plans and compete against other users for
+                        planning achievement.<br>
+                        - Present ideas for the project, and supervise planning and designing it.<br>
+                        - Implemented To-do List and Point Management, and was responsible for secondary management of
+                        server and DB.<br>
+                    </div>
+                    <div class="techstack">Java, XML, Apache, PHP, MySQL, SQLite, Git</div>
+                </div>
+
+                <div class="col-lg-6">
+                    <hr>
+                    <a class="stitle pytitle" href="https://github.com/hgyuhyeon/Whenwemeet">
+                        <span class="kr">우리 언제 만나?</span>
+                        <span class="en">When we meet?</span>
+                    </a>
+                    <div class="date">
+                        2020.09 - 2020.12
+                        &nbsp;|&nbsp;
+                        <span class="kr">충북대학교 오픈소스개발프로젝트 | 4인</span>
+                        <span class="en">CBNU Development of Open Source SW Project | 4 members</span>
+                    </div>
+                    <div class="kr">
+                        - 여러 사용자가 만날 수 있는 약속 시간을 추천하는 웹 서비스.<br>
+                        - <b>팀장</b>을 맡아 프로젝트를 총괄 & 기획함.<br>
+                        - 서버 구축 및 관리를 맡았으며 여러 개의 방을 갖는 멀티룸 구조를 구현함.<br>
+                        - 시스템 아키텍처(프로젝트 구조 설계, 일정 CRUD & 빈 시간 조회)를 구현함.<br>
+                    </div>
+                    <div class="en">
+                        - A web service that recommends an appointment time for multiple users to meet.<br>
+                        - Be a <b>Team Leader</b> and in charge of controlling and planning the project.<br>
+                        - set up and managed server and implemented multi-room structure for user.<br>
+                        - Implemented system architecture (project structure design, schedule CRUD & free time
+                        lookup).<br>
+                    </div>
+                    <div class="techstack">Java, Tomcat, MariaDB, Git</div>
+                </div>
+
+                <div class="col-lg-6">
+                    <hr>
+                    <a class="stitle pytitle" href="https://github.com/Yusuhyeong/-02-01">
+                        <span class="kr">식단을 부탁해</span>
+                        <span class="en">Take a meal</span>
+                    </a>
+                    <div class="date">
+                        2020.03 - 2020.06
+                        &nbsp;|&nbsp;
+                        <span class="kr">충북대학교 오픈소스기초프로젝트 | 4인</span>
+                        <span class="en">CBNU Fundamental of Open Source SW Project | 4 members</span>
+                    </div>
+                    <div class="kr">
+                        - 사용자가 선호하는 열량과 식단 스타일대로 식단을 추천해주는 Windows 환경에서 구동 가능한 프로그램.<br>
+                        - 필터와 결과물 산출 기능을 구현함.<br>
+                        - 데이터베이스 서버 관리 & 데이터 가공을 담당함.<br>
+                    </div>
+                    <div class="en">
+                        - A program what can run in a Windows environment recommends a diet according to
+                        the user's preference for calories and diet style.<br>
+                        - Implemented filtering and make deliverables.<br>
+                        - Administrated DB Server & DB resource processing.<br>
+                    </div>
+                    <div class="techstack">Python, MySQL</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="title">Side Project</div>
+        <div class="paragraph">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- <hr> -->
+                    <a class="stitle pytitle" href="https://github.com/hgyuhyeon/hgyuhyeon.github.io">CV</a>
+                    <div class="kr">
+                        <div class="date">2021.01 | 개인</div>
+                        - 그동안의 활동 정리 및 기록, 앞으로의 방향성 설정을 위해 제작.<br>
+                        - html, css의 사용법과 코드 읽는 법을 익힘.<br>
+                    </div>
+                    <div class="en">
+                        <div class="date">2021.01 | Only me</div>
+                        - Created for organizing and recording activities so far and suggest for future
+                        direction.<br>
+                        - Learned how to read and use html, css.<br>
+                    </div>
+                    <div class="techstack">HTML, CSS, Javascript, Bootstrap <span style="color: black">|</span>
+                        <a class="url" href="https://hgyuhyeon.github.io"> hgyuhyeon.github.io</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="title">Education</div>
+        <div class="paragraph">
+            <div class="kr">
+                <div class="stitle">충북대학교 소프트웨어학과</div>
+                <p>3.71/4.5 | 2019 - 현재</p>
+                <div class="stitle">충북대학교 사범대학 부설고등학교</div>
+                <p>졸업 | 2016 - 2018</p>
+            </div>
+            <div class="en">
+                <div class="stitle">Chungbuk National University</div>
+                <p>Software science | Grade 3.71/4.5 | 2019 - Present</p>
+                <div class="stitle">Chungbuk National University high school</div>
+                <p>Graduated | 2016 - 2018 </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="title">Language</div>
+        <div class="paragraph">
+            <div class="stitle">English</div>
+            <p>TOEIC 840<span class="date"> 2021.01</span></p>
+        </div>
+    </section>
+
+    <section>
+        <div class="title">Interest</div>
+        <div class="paragraph">
+            <div class="stitle">Music</div>
+            <p>
+                Classic / New Age Music<br>
+                Piano, Cello, Guitar
+            </p>
+            <div class="stitle">Sport</div>
+            <p>Figure skating</p>
+        </div>
+    </section>
+
+    <section id="guestbook">
+        <div class="title">GuestBook</div>
+        <div class="paragraph">
+            <div class="stitle">Comment</div>
+            <form action="{% url 'bookadd' %}" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="form-group">
+                    <textarea cols="40" rows="5" class="form-control" name="content" id="content"
+                        value="{{ form.content.value|default_if_none:'' }}"
+                        placeholder="Leave a message to Hwang Gyuhyeon..."></textarea>
+                </div>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-end">
+                    <input type="submit" class="send" value="Send">
+                </div>
+            </form>
+
+            {% if log %}
+            <br>
+            {% for item in log %}
+            <hr style="color: rgb(179, 200, 218);">
+            <p class="log">{{ item.content }}</p>
+            {% if commentlog %}
+            {% for content in commentlog %}
+            {% if content.logID == item.id %}
+            <p>└ {{ content.comment }}</p>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+            <form action="{% url 'commentadd' item.id %}" method="POST" enctype="multipart/form-data" class="comment">
+                {% csrf_token %}
+                <div class="form-group">
+                    <textarea cols="20" rows="3" class="form-control" name="comment" id="comment"
+                        value="{{ form.comment.value|default_if_none:'' }}"
+                        placeholder="Leave a message to this log.."></textarea>
+                </div>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-end">
+                    <input type="submit" class="commentsend" value="Send">
+                </div>
+            </form>
+            <br>
+            {% endfor %}
+            {% endif %}
+
+        </div>
+    </section>
+    {% endblock content %}
+</body>
+
+</html>

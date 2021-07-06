@@ -12,14 +12,12 @@
 : ''' '''를 이용한다
 
 '''
-
 #include <stdio.h>
 
 int main(void) {
   printf("Hello World!");
   return 0;
 }
-
 '''
 
 이렇게 하면 소스코드 칸 완성  
